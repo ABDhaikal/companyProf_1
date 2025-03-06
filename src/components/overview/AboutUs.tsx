@@ -14,8 +14,8 @@ const AboutUsOverview = () => {
                className="aspect-square  relative w-[80%] m-auto my-2 "
             >
                <Image
-                  src="/TopBrewImg.svg"
-                  alt="hero"
+                  src="/topBrewImg.svg"
+                  alt="logo TopBrew"
                   fill
                   className="object-center"
                />
