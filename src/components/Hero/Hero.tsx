@@ -16,7 +16,7 @@ const Hero = () => {
          </div>
 
          <div className="flex items-center justify-center">
-            <Image src="/HeroImg.svg" alt="hero" width={500} height={500} />
+            <Image src="/HeroImg.svg" alt="hero" width={400} height={400} />
          </div>
       </section>
    );

@@ -11,7 +11,7 @@ const AboutUsOverview = () => {
             </h2>
             <Link
                href="/about"
-               className="aspect-square  relative w-[80%] m-auto my-2 "
+               className="aspect-square  relative w-[200px] m-auto my-2 "
             >
                <Image
                   src="/topBrewImg.svg"
