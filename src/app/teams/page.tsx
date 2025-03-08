@@ -6,7 +6,7 @@ const Teamspage =  () => {
    return (
       <section className="container m-auto">
          <TeamsTitle />
-         <Suspense fallback={<Loader />}>
+         <Suspense >
          <div className="flex flex-wrap justify-center md:w-[60%] m-auto gap-5 my-10 ">
             <TeamCard title="TopBrewer Handal" />
             <TeamCard title="Cashier TopBrew" />

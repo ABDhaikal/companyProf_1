@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "TopBrew Company",
   description: "The coffee makes you awake, the milk makes you sleep",
+  openGraph: {
+    images: "/topBrewImg.svg",
+  }
 };
 
 export default function RootLayout({
