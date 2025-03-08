@@ -4,7 +4,7 @@ import React from "react";
 
 const Hero = () => {
    return (
-      <section className="container m-auto grid grid-cols-1 lg:grid-cols-2 px-8 md:px-20 my-6">
+      <section className="container m-auto grid grid-cols-1 place-items-center lg:grid-cols-2 px-8 md:px-20 my-6 ">
          <div className="flex flex-col justify-center items-center gap-5 relative ">
             <h1 className="font-bold text-center text-6xl md:text-8xl capitalize ">
                TopBrew Coffee
@@ -15,8 +15,8 @@ const Hero = () => {
             <div className="h-1/2 w-1/2 absolute rounded-full bg-white/10 blur-3xl z-[-1]"></div>
          </div>
 
-         <div className="flex items-center justify-center">
-            <Image src="/HeroImg.svg" alt="hero" width={400} height={400} />
+         <div className="aspect-square w-[80%] lg:w-[80%] relative">
+            <Image src="/HeroImg.webp" alt="hero" fill />
          </div>
       </section>
    );
